@@ -1,0 +1,203 @@
+[Adblock Plus 2.0]
+! Homepage: https://garda.netlify.com
+! Title: Garda filters
+! Expires: 2 days
+! Version: Garda original polish
+! Last modified: 26 Feb 2019
+! Description: Ochraniam Cię przed irytującymi reklamami, popupami i kilkoma innymi rzeczami.
+#==========================================================================
+#									v
+#									v
+#									v
+#==========================================================================
+
+#                                  Garda
+#			Lista chroniąca przed internetowymi nieprzyjemnosciami
+
+#			Oryginalna wersja gardy: https://pastebin.com/raw/uYJbKRs6
+#			Garda Lite: (w budowie)
+
+#==========================================================================
+
+
+#      Dnsy:
+
+0.0.0.0 relayimmo.com
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 plengistat.info
+0.0.0.0 findmedate.site
+0.0.0.0 install.notify-service.com
+0.0.0.0 popads.net
+0.0.0.0 pulsembed.eu
+0.0.0.0 chidsimp.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 gemius.com
+0.0.0.0 gemius.pl
+0.0.0.0 googleadservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 adocean.pl
+0.0.0.0 bbelements.com
+0.0.0.0 nfkd2ug8d9.com
+0.0.0.0 p232207.mycdn.co
+0.0.0.0 humparsi.com
+0.0.0.0 businesslick.com
+0.0.0.0 o12zs3u2n.com
+0.0.0.0 bebi.com
+0.0.0.0 onclicksuper.com
+0.0.0.0 dolohen.com
+0.0.0.0 exosrv.com
+0.0.0.0 traccen.info
+0.0.0.0 jf71qh5v14.com
+0.0.0.0 dynsrvtbg.com
+0.0.0.0 taboola.com
+0.0.0.0 cobalten.com
+0.0.0.0 https://0azx1.com
+0.0.0.0 ornament-i.com
+0.0.0.0 https://ceehimur.uk
+0.0.0.0 ssl2anyone3.com
+0.0.0.0 sale.aliexpress.com
+0.0.0.0 https://fireads.online
+0.0.0.0 f-ads.pl
+0.0.0.0 runative.com
+0.0.0.0 c.spolecznosci.net
+0.0.0.0 spolecznosci.net
+#--------------------------------------------------------------------------
+
+
+#     Prewencyjne:
+
+com,org,net,pl##.rodo
+com,org,net,pl##.rodo-alert
+com,org,net,pl##.rodonotify
+com,org,net,pl##.rodo-popup
+com,org,net,pl##.cookies
+com,org,net,pl##.cookie
+com,org,net,pl##.cookie-notice
+com,org,net,pl##.cookienotif
+com,org,net,pl##.cookie-popup
+com,org,net,pl###.cookie-popup
+com,org,net,pl##.cookie-policy
+com,org,net,pl###cookie-policy
+com,org,net,pl###cookies_policy_info
+com,org,net,pl##cookies_policy_info
+com,org,net,pl##.cookie-notification__container
+com,org,net,pl##.pea_cook_wrapper
+com,org,net,pl##.jqmCookieMonster
+com,org,net,pl##.popup
+com,org,net,pl##.popups
+com,org,net,pl##.pop-up
+com,org,net,pl##.cmp-popup_popup
+com,org,net,pl##.popup_overlay
+com,org,net,pl##.popup-bg-layer
+com,org,net,pl##.popup-mobile.popup-window
+com,org,net,pl##.stopadblock
+com,org,net,pl##.blockadblock
+com,org,net,pl##.ublock
+com,org,net,pl##.adblock
+com,org,net,pl##.abAlert
+com,org,net,pl##.ad
+com,org,net,pl##.ads
+com,org,net,pl##.advert
+com,org,net,pl##.advertise
+com,org,net,pl##.advertisement
+com,org,net,pl##.newsletter
+#--------------------------------------------------------------------------
+
+#     Koparki:
+
+0.0.0.0 coinimp.com
+0.0.0.0 coinhive.com
+0.0.0.0 cnhv.co
+0.0.0.0 pkg.moonify.io
+#--------------------------------------------------------------------------
+
+#     PornoReklamy
+# ta lista jest troche pomieszana z lista dns, niestety jestem leniwym chujem i nic z tym nie zrobie
+
+0.0.0.0 trafficfactory.biz/*
+0.0.0.0 trafficjunky.net/*
+0.0.0.0 ads.trafficjunky.net
+0.0.0.0 https://a.adtng.com/*
+0.0.0.0 pt.trafficjunky.net/*
+0.0.0.0 trafyield.com
+0.0.0.0 doublepimpssl.com
+#--------------------------------------------------------------------------
+
+#     Fixy
+
+# scroll:
+com,pl,org,net##html:style(overflow: auto !important;)
+
+# naprawiacz wyświetlenia strony1
+com,pl,org,net##body:style(width: 100%; !important)
+#--------------------------------------------------------------------------
+
+#     Niepewne badz odrzucone
+
+
+#0.0.0.0 yt3.ggpht.com/*               nie uzywamy tego filtru, bo troche zaburza dzialanie youtube
+
+www.wykop.pl###google_ads_iframe_\^
+
+https://tools.services.tvn.pl/player.tvn.tools.js
+
+0.0.0.0 https://tharbadir.com/2?z=1571729
+0.0.0.0 //cobalten.com/fac.php
+0.0.0.0 https://cobalten.com/afu.php
+0.0.0.0 https://waust.at/d.js
+0.0.0.0 https://kt5850pjz0.com/4f/2b/73/4f2b73ef33267154c68dfb64d2318f1f.js
+0.0.0.0 http://go.oclasrv.com/apu.php
+div[class^="advert"]
+
+# unblur
+#com,pl,org,net##body:style(filter: blur(0px); !important)
+#--------------------------------------------------------------------------
+
+#     Filtry dedykowane
+
+fandom.com,fandom.pl##body > div:nth-of-type(8)
+sims.fandom.com##._1ouSF3xnwUjIOquxopuxSZ
+player.pl##.modal-overlay
+player.pl##.show.additional-styles.modal-lg.modal-dialog.simple.modal > .modal-dialog
+www.wykop.pl###fixedBox
+www.wykop.pl##.screening-displace.r-block
+www.wykop.pl###prebidframe_stroer_bottombanner
+||www.wykop.pl/img/campaign/*$subdocument
+||www.wykop.pl/cdn/*/advert*$image
+www.wykop.pl##.grid-full
+pastebin.com##.banner_728
+pastebin.com###tfasyncframe_0
+www.youtube.com###video-masthead
+www.roblox.com###Leaderboard-Abp
+hqporner.com##.ad_video
+www.pornhub.com##.adlink2
+www.pornhub.com##.removeAdsStyle.removeAdLink
+www.pornhub.com##.milktruck > div
+www.pornhub.com##.vtoukxf > .adlink2
+duckduckgo.com###ads
+filing.pl##.lean-overlay
+https://anime-odcinki.pl##.mn-related-container
+anime-odcinki.pl##.mn-related-container
+anime-odcinki.pl##div:nth-of-type(2) > center
+anime-odcinki.pl##.mn-related-container_no-responsive.mn-related-container
+
+anime-odcinki.pl##.mn-related-container_no-responsive.mn-related-container
+anime-odcinki.pl##.mn-thumbnails_label-under.mn-thumbnails_col-4.mn-outer
+anime-odcinki.pl##.mn-container-adsby_position_right.mn-container-adsby
+
+www.roblox.com###GamesPageRightColumnSidebar
+www.roblox.com###GamesListContainer6 > .games-list > .game-cards-grid.game-cards.games.hlist > .abp-spacer
+
+www.roksa.pl###cboxOverlay
+www.roksa.pl###cboxWrapper
+sciaga.pl##div.sth-rec-content:nth-of-type(4) > div
+samequizy.pl###ad3 > .reklama
+twojcel.to##.gdpr-privacy-bar.gdpr > .gdpr-wrapper
+www.avast.com##.visible.dark.cookie-bar.js-cookie-bar
+blog.sucuri.net###cookie-law-info-bar
+cke.gov.pl###catapult-cookie-bar
+www.neowin.net##.qc-cmp-ui-content
+www.neowin.net##.qc-cmp-showing.qc-cmp-ui-container
+pastebin.com###float-box-2
+#--------------------------------------------------------------------------
