@@ -3,20 +3,22 @@
 ! Title: Garda filters
 ! Expires: 2 days
 ! Version: Garda original polish
-! Last modified: 26 Feb 2019
+! Last modified: 21 Apr 2019
 ! Description: Ochraniam Cię przed irytującymi reklamami, popupami i kilkoma innymi rzeczami.
 #==========================================================================
 #									v
 #									v
 #									v
 #==========================================================================
+#-------------------------------------------------------------------------
 
-#                                  Garda
+#                         /       Garda       /
 #			Lista chroniąca przed internetowymi nieprzyjemnosciami
 
 #			Oryginalna wersja gardy: https://pastebin.com/raw/uYJbKRs6
 #			Garda Lite: (w budowie)
 
+#-------------------------------------------------------------------------
 #==========================================================================
 
 
@@ -62,6 +64,7 @@
 0.0.0.0 runative.com
 0.0.0.0 c.spolecznosci.net
 0.0.0.0 spolecznosci.net
+0.0.0.0 cvqgnkeqme.com
 #--------------------------------------------------------------------------
 
 
@@ -71,6 +74,7 @@ com,org,net,pl##.rodo
 com,org,net,pl##.rodo-alert
 com,org,net,pl##.rodonotify
 com,org,net,pl##.rodo-popup
+com,org,net,pl##.rodo_layer
 com,org,net,pl##.cookies
 com,org,net,pl##.cookie
 com,org,net,pl##.cookie-notice
@@ -82,15 +86,25 @@ com,org,net,pl###cookie-policy
 com,org,net,pl###cookies_policy_info
 com,org,net,pl##cookies_policy_info
 com,org,net,pl##.cookie-notification__container
+com,org,net,pl##.cookie-notice-container
+com,org,net,pl##.cookie-bar
+com,org,net,pl##.cookieChoiceInfo
+com,org,net,pl###cookieChoiceInfo
 com,org,net,pl##.pea_cook_wrapper
 com,org,net,pl##.jqmCookieMonster
+com,org,net,pl##.cookiesEU-box
+com,org,net,pl##.cookie-alert
+com,org,net,pl###cookiesEU-box
 com,org,net,pl##.popup
 com,org,net,pl##.popups
 com,org,net,pl##.pop-up
 com,org,net,pl##.cmp-popup_popup
 com,org,net,pl##.popup_overlay
 com,org,net,pl##.popup-bg-layer
+com,org,net,pl##.gdpr-popup
+com,org,net,pl###gdpr-popup
 com,org,net,pl##.popup-mobile.popup-window
+com,org,net,pl##.butterBar-message
 com,org,net,pl##.stopadblock
 com,org,net,pl##.blockadblock
 com,org,net,pl##.ublock
@@ -150,6 +164,10 @@ https://tools.services.tvn.pl/player.tvn.tools.js
 0.0.0.0 http://go.oclasrv.com/apu.php
 div[class^="advert"]
 
+crowdin.com##.cc-color-override-1528406573.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+
+||www.veedif.com/player_test/img/*.gif$image
+
 # unblur
 #com,pl,org,net##body:style(filter: blur(0px); !important)
 #--------------------------------------------------------------------------
@@ -201,4 +219,24 @@ www.neowin.net##.qc-cmp-ui-content
 www.neowin.net##.qc-cmp-showing.qc-cmp-ui-container
 pastebin.com###float-box-2
 instaud.io##.spons > div
+katowice.wyborcza.pl##.active.small.notify
+katowice.wyborcza.pl##.is-visible.mod_ddbox.mod
+wyborcza.pl##.active.small.notify
+wyborcza.pl##.is-visible.mod_ddbox.mod
+southpark.cc.com###_evidon_banner
+8ch.net###new-bottom-ads
+www.cholera.fora.pl##.t-a-c__overlay
+www.cholera.fora.pl##.js-pp-t-a-c.pp-t-a-c
+www.zamzar.com##.cc_container--open.cc_container.cc_banner
+orteil.dashnet.org##.cc_container--open.cc_container.cc_banner
+www.hackintosh.computer###loader-wrapper
+shinden.pl###cookie-bar
+gamejolt.com##.fill-darker.cookie-banner
+www.vectra.pl##.l-cookies
+ising.pl###cookie-alert
+#--------------------------------------------------------------------------
+
+#     Jsy
+
+Http://pagead2.googlesyndication.com/pagead/show_ads.js
 #--------------------------------------------------------------------------
