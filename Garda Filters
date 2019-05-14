@@ -234,6 +234,13 @@ shinden.pl###cookie-bar
 gamejolt.com##.fill-darker.cookie-banner
 www.vectra.pl##.l-cookies
 ising.pl###cookie-alert
+
+www.sitepoint.com##.qc-cmp-showing.qc-cmp-ui-container
+www.sitepoint.com##.reveal-modal-bg
+www.sitepoint.com###free-book-modal
+www.sitepoint.com##iframe
+www.sitepoint.com##.sp-smartbar__body
+
 #--------------------------------------------------------------------------
 
 #     Jsy
