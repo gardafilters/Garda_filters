@@ -89,6 +89,7 @@ com,org,net,pl##cookies_policy_info
 com,org,net,pl##.cookie-notification__container
 com,org,net,pl##.cookie-notice-container
 com,org,net,pl##.cookie-bar
+com,org,net,pl##.cookieBanner
 com,org,net,pl##.cookieChoiceInfo
 com,org,net,pl###cookieChoiceInfo
 com,org,net,pl##.pea_cook_wrapper
@@ -241,6 +242,11 @@ www.sitepoint.com###free-book-modal
 www.sitepoint.com##iframe
 www.sitepoint.com##.sp-smartbar__body
 
+www.merriam-webster.com##.right-ad-sticky-wrapper
+www.merriam-webster.com##.underlay
+www.merriam-webster.com###subscribe-overlay
+www.merriam-webster.com##.optanon-alert-box-wrapper
+www.merriam-webster.com###recirc-bar-footer
 #--------------------------------------------------------------------------
 
 #     Jsy
